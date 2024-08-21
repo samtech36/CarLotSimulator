@@ -32,24 +32,28 @@ public class Car
     public void Type()
     {
         Console.WriteLine($"The Car i have is a {Year} {Make} {Model}.");
+        Console.WriteLine("-------------------------------------------");
     }
     
 
     public void MakeEngineNoise()
     {
         Console.WriteLine($"The engine noise is {EngineNoise}.");
+        Console.WriteLine("-------------------------------------------");
         
     }
 
     public void MakeHonkNoise()
     {
         Console.WriteLine($"The honk noise is {HonkNoise} enough.");
+        Console.WriteLine("-------------------------------------------");
         
     }
 
     public void MakeIsDriveable()
     {
         Console.WriteLine($"it is {IsDriveable} that the car is drivable after testing the engine.");
+        Console.WriteLine("-------------------------------------------");
     }
     
     
