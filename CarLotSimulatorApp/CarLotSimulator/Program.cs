@@ -6,17 +6,68 @@ namespace CarLotSimulator
     {
         static void Main(string[] args)
         {
-            //TODO
-
-            //Create a seperate class file called Car
-            //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
-            //Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()
-            //The methods should take one string parameter: the respective noise property
-
-
-            //Now that the Car class is created we can instanciate 3 new cars
+            //Now that the Car class is created we can create 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
+            
+            
+            //car #1
+            Car myfirstCar = new Car();
+            myfirstCar.Make = "Audi";
+            myfirstCar.Model = "Q7";
+            myfirstCar.Year = 2021;
+            myfirstCar.EngineNoise = "medium";
+            myfirstCar.HonkNoise = "soft";
+            myfirstCar.IsDriveable = true;
+
+            myfirstCar.Type();
+            myfirstCar.MakeEngineNoise();
+            myfirstCar.MakeHonkNoise();
+            myfirstCar.MakeIsDriveable();
+            
+            
+            //Car #2
+            var mysecondCar = new Car()
+            {
+                Make = "Ford",
+                Model = "Mustang",
+                Year = 2022,
+                EngineNoise = "medium",
+                HonkNoise = "medium",
+                IsDriveable = true
+
+            };
+            
+            mysecondCar.Type();
+            mysecondCar.MakeEngineNoise();
+            mysecondCar.MakeHonkNoise();
+            mysecondCar.MakeIsDriveable();
+            
+            
+            //Car #3
+
+            var mythirdCar = new Car()
+            {
+                Make = "Nissan",
+                Model = "GTR",
+                Year = 2023,
+                EngineNoise = "loud",
+                HonkNoise = "very loud",
+                IsDriveable = true
+
+            };
+            
+            mythirdCar.Type();
+            mythirdCar.MakeEngineNoise();
+            mythirdCar.MakeHonkNoise();
+            mythirdCar.MakeIsDriveable();
+            
+            
+            
+
+
+
+            
 
             //*************BONUS*************//
 
