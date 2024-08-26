@@ -13,6 +13,11 @@ public class Car
     
     
     //properties of a car
+
+    public Car()
+    {
+        CarLot.numberofcars++;
+    }
     
     public string Make { get; set; }
     
